@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "args": "${input:testCase}"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "testCase",
+            "type": "pickString",
+            "description": "Selecciona el caso de prueba",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8"
+            ],
+            "default": "8"
+        }
+    ]
+}
